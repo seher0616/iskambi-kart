@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=DynaPuff&family=Roboto:wght@100&family=Sorts+Mill+Goudy:ital@1&family=Yellowtail&display=swap');
+​
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-image: linear-gradient(to bottom right, red ,yellow , darkgreen);*/
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    height: 100%; 
+    background-color: darkgreen;
+​
+}
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 100px;
+    /* top: 50%; */
+    background-color: aqua;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'DynaPuff', cursive ;
+    margin-top: 100px;
+}
+img{
+    width: 100px;
+}
+.box88{
+    position: absolute;
+    align-items: center;
+    top: 7px;
+}
+ .box77{
+    position: absolute;
+    top: 10px;
+    left: 140px;
+    transform: rotate(-6deg);
+}
+.box66{
+    position: absolute;
+    top: 20px;
+    left: 80px;
+    transform: rotate(-9deg);
+}
+.box55{
+    position: absolute;
+    top: 30px;
+    left: 25px;
+    transform: rotate(-12deg);
+}
+.box44{
+    position: absolute;
+    top: 47px;
+    left: -40px;
+    transform: rotate(-15deg);
+}
+.box33{
+    position: absolute;
+    top: 65px;
+    left: -100px;
+    transform: rotate(-18deg);
+}
+.box22{
+    position: absolute;
+    top: 88px;
+    left: -160px;
+    transform: rotate(-21deg);
+}
+.box99{
+    position: absolute;
+    top: 11px;
+    right: 140px;
+    transform: rotate(6deg);
+}
+.box1010{
+    position: absolute;
+    top: 20px;
+    right: 80px;
+    transform: rotate(9deg);
+}
+.boxjj{
+    position: absolute;
+    top: 32px;
+    right: 20px;
+    transform: rotate(12deg);
+}
+.boxqq{
+    position: absolute;
+    top: 47px;
+    right: -40px;
+    transform: rotate(15deg);
+}
+.boxkk{
+    position: absolute;
+    top: 65px;
+    right: -100px;
+    transform: rotate(18deg);
+}
+.boxaa{
+    position: absolute;
+    top: 87px;
+    right: -160px;
+    transform: rotate(21deg);
+}
+div[class*='box']:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+    z-index: 1;
+    transition: 0.2s ease;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.4);
+}
